@@ -20,7 +20,7 @@ public class LoopWhile {
 		
 		}
 		
-		media = media/5.0;
+		media = media/5.00;
 				
 				System.out.println("A média das idades é :"+ media);
 				
