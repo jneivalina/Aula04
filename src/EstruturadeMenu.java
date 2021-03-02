@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class EstruturadeMenu {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in);
+		
+		int opcao = 0;
+		
+		while (opcao!= 4 ) {
+			System.out.println("Escolha uma das opções a seguir:");
+			System.out.println("1 - Opção A");
+			System.out.println("2 - Opção B");
+			System.out.println("3 - Opção C");
+			System.out.println("4 - Opção Sair");
+			System.out.println("Digite a opção desejada");
+			opcao = leitor.nextInt();
+			
+			switch (opcao) {
+			case 1:
+				System.out.println("Voce escolheu a opção A");
+				break;
+				
+			case 2:
+				System.out.println("Voce escolheu a opção B");
+				break;
+			case 3:
+				System.out.println("Voce escolheu a opção C");
+				break;
+			}
+		}
+
+	}
+
+}
